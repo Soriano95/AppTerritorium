@@ -15,6 +15,10 @@
 		2C8145B21DB2906200B8630E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8145B01DB2906200B8630E /* LaunchScreen.storyboard */; };
 		2C8145BD1DB2906200B8630E /* AppTerritoriumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8145BC1DB2906200B8630E /* AppTerritoriumTests.m */; };
 		2C8145C81DB2906200B8630E /* AppTerritoriumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8145C71DB2906200B8630E /* AppTerritoriumUITests.m */; };
+		2C8145D61DB2932600B8630E /* territorium_azul.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8145D51DB2932600B8630E /* territorium_azul.png */; };
+		2C8145D81DB2933600B8630E /* territorium_blanco.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8145D71DB2933600B8630E /* territorium_blanco.png */; };
+		2C8145DA1DB29C6200B8630E /* cosaterritorium.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8145D91DB29C6200B8630E /* cosaterritorium.png */; };
+		2C8145DC1DB29C6D00B8630E /* cosaterritorium2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8145DB1DB29C6D00B8630E /* cosaterritorium2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		2C8145C31DB2906200B8630E /* AppTerritoriumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTerritoriumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8145C71DB2906200B8630E /* AppTerritoriumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppTerritoriumUITests.m; sourceTree = "<group>"; };
 		2C8145C91DB2906200B8630E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8145D51DB2932600B8630E /* territorium_azul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = territorium_azul.png; path = ../../territorium_azul.png; sourceTree = "<group>"; };
+		2C8145D71DB2933600B8630E /* territorium_blanco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = territorium_blanco.png; path = ../../territorium_blanco.png; sourceTree = "<group>"; };
+		2C8145D91DB29C6200B8630E /* cosaterritorium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cosaterritorium.png; path = ../../../Downloads/cosaterritorium.png; sourceTree = "<group>"; };
+		2C8145DB1DB29C6D00B8630E /* cosaterritorium2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cosaterritorium2.png; path = ../../../Downloads/cosaterritorium2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +125,11 @@
 		2C8145A21DB2906200B8630E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2C8145DB1DB29C6D00B8630E /* cosaterritorium2.png */,
+				2C8145D91DB29C6200B8630E /* cosaterritorium.png */,
+				2C8145D71DB2933600B8630E /* territorium_blanco.png */,
 				2C8145A31DB2906200B8630E /* main.m */,
+				2C8145D51DB2932600B8630E /* territorium_azul.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -243,6 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8145D81DB2933600B8630E /* territorium_blanco.png in Resources */,
+				2C8145D61DB2932600B8630E /* territorium_azul.png in Resources */,
+				2C8145DA1DB29C6200B8630E /* cosaterritorium.png in Resources */,
+				2C8145DC1DB29C6D00B8630E /* cosaterritorium2.png in Resources */,
 				2C8145B21DB2906200B8630E /* LaunchScreen.storyboard in Resources */,
 				2C8145AF1DB2906200B8630E /* Assets.xcassets in Resources */,
 				2C8145AD1DB2906200B8630E /* Main.storyboard in Resources */,
@@ -412,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppTerritorium/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.innovision.AppTerritorium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppTerritorium/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.innovision.AppTerritorium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +514,7 @@
 				2C8145CE1DB2906200B8630E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C8145CF1DB2906200B8630E /* Build configuration list for PBXNativeTarget "AppTerritoriumTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +523,7 @@
 				2C8145D11DB2906200B8630E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C8145D21DB2906200B8630E /* Build configuration list for PBXNativeTarget "AppTerritoriumUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +532,7 @@
 				2C8145D41DB2906200B8630E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
