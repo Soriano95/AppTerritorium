@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E30F7341DB511BC008CF05D /* logo_territorium.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E30F7331DB511BC008CF05D /* logo_territorium.png */; };
 		2C8145A41DB2906200B8630E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8145A31DB2906200B8630E /* main.m */; };
 		2C8145A71DB2906200B8630E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8145A61DB2906200B8630E /* AppDelegate.m */; };
 		2C8145AA1DB2906200B8630E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8145A91DB2906200B8630E /* ViewController.m */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E30F7331DB511BC008CF05D /* logo_territorium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_territorium.png; sourceTree = "<group>"; };
 		2C81459F1DB2906200B8630E /* AppTerritorium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTerritorium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8145A31DB2906200B8630E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C8145A51DB2906200B8630E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E30F7321DB51198008CF05D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E30F7331DB511BC008CF05D /* logo_territorium.png */,
+			);
+			name = Resources;
+			path = AppTerritorium/Resources;
+			sourceTree = "<group>";
+		};
 		2C8145961DB2906200B8630E = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +104,7 @@
 				2C8145BB1DB2906200B8630E /* AppTerritoriumTests */,
 				2C8145C61DB2906200B8630E /* AppTerritoriumUITests */,
 				2C8145A01DB2906200B8630E /* Products */,
+				0E30F7321DB51198008CF05D /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -260,6 +272,7 @@
 				2C8145DA1DB29C6200B8630E /* cosaterritorium.png in Resources */,
 				2C8145DC1DB29C6D00B8630E /* cosaterritorium2.png in Resources */,
 				2C8145B21DB2906200B8630E /* LaunchScreen.storyboard in Resources */,
+				0E30F7341DB511BC008CF05D /* logo_territorium.png in Resources */,
 				2C8145AF1DB2906200B8630E /* Assets.xcassets in Resources */,
 				2C8145AD1DB2906200B8630E /* Main.storyboard in Resources */,
 			);
